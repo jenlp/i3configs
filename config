@@ -154,3 +154,6 @@ bar {
 	position top
 	font pango:DejaVu Sans Mono 12
 }
+
+exec xscreensaver -no-splash
+bindsym $mod+z exec xscreensaver-command -lock
